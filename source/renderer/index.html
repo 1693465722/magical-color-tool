@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Magical Color Tool</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <canvas id="c"></canvas>
+    <div class="title"  style="-webkit-app-region: drag" id="titleHeaderBox">
+      <span id="titleHeader" style="-webkit-app-region: no-drag" class="pointer">神奇的颜色工具</span>
+      <div class="title-tool" style="-webkit-app-region: no-drag">
+        <span class="pointer" id="titleMin" title="最小化"><i class="icon iconfont icon-zuixiaohua1 " ></i></span>
+        <span class="pointer" id="titleMax" title="最大化"><i class="icon iconfont icon-zuidahua " id="titleMaxIcon"></i></span>
+        <span class="pointer" id="titleClose" title="关闭"><i class="icon iconfont icon-guanbi "></i></span>
+      </div>
+    </div>
+    <div class="color-show" id="colorShow">
+      <div style="z-index: 2">
+          <div style="display: flex" class="home-font-color">
+              
+              <div class="color-input">
+                  <div id="colorValue">#64DBCD</div>
+              </div>
+              <div>
+                  <button type="button" class="layui-btn copy " id="copyHex">复制</button>
+              </div>
+          </div>
+          <div style="display: flex" class="home-font-color">
+              <div class="color-input color-input-rgba ">
+                  <div id="colorValueRGBA">rgba(100,219,205,1)</div>
+              </div>
+              <div>
+                  <button type="button" class="layui-btn copy" id="copyRGBA">复制</button>
+              </div>
+          </div>
+      </div>
+      <div class="color-sel-box home-font-color" >
+          <div> <i class="icon iconfont icon-xise" id="getColor" title="点我"></i></div>
+          <div class="colorSle-show"><i class="layui-icon layui-icon-down" style="font-size: 22px; "></i>  </div>
+          <div id="colorSle" style="opacity: 0"></div>
+      </div>
+
+    </div>
+    <div class="footer">
+      <i class="icon iconfont icon-shezhi pointer" id="set"></i>
+      <i class="icon iconfont icon-github pointer" id="github"></i>
+    </div>
+   
+    <!-- You can also require other files to run in this process -->
+    <script src="../static/layui/layui.js"></script>
+    <script src="./renderer.js"></script>
+    <script type="text/javascript" src="../static/anime.js"></script>
+    <script type="text/javascript" src="./color.js"></script>
+    <script>
+
+    </script>
+
+  </body>
+</html>
+

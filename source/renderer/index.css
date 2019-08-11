@@ -1,0 +1,250 @@
+*{
+  /* z-index: 2 */
+}
+html, body{
+  height: 100%;
+   width: 100%;
+   background-color: #64DBCD;
+}
+  .color-show{
+    padding-left: 70px;
+    margin: 20px 10px;
+    /* background: #64DBCD; */
+
+    display: flex;
+  }
+  .color-sel-box>div:nth-child(1){
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #7b6b6b36;
+    padding: 5px;
+  }
+  .top{
+    display: flex;
+    /* padding: 20px; */
+    /* padding-bottom: 10px; */
+    align-items: center;
+    height: 1px;
+  }
+  .top>div{
+    margin-right: 10px;
+  }
+  .color-input{
+    width: 220px;
+    display: flex;
+    height: 38px;
+    margin: 0 10px 10px 12px;
+    align-items: center;
+    background-color: #7b6b6b36;
+  }
+  .home-font-color{
+   color: #565555
+  }
+  #colorValue, #colorValueRGBA{
+    /* border: 1px solid #ccc; */
+    width: 175px;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  #colorValueRGBA{
+    width: 200px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+  }
+  .sel-box{
+    position: relative;
+    opacity: 0;
+    z-index: -1;
+    width: 0px;
+  }
+  .layui-colorpicker-main{
+    z-index: 10;
+    left: 112px !important;
+    top: 162px !important;
+    /* width: 295px; */
+  }
+  body .layui-colorpicker-basis{
+    /* width: 275px; */
+  }
+  body .layui-colorpicker{
+    border:none
+  }
+  body .icon-zuidahuafuben{
+    font-size: 14px
+  }
+  .title{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    /* background: #64DBCD; */
+    font-weight: 500;
+    font-size: 18px;
+    color: #5f5f5f;
+    position: relative;
+    /* border-bottom:1px solid #63525270; */
+    -webkit-user-select: none; 
+  }
+  .title-tool{
+    position: absolute;
+    right: 0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .title-tool>span{
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .title-tool>span:hover{
+    background: #7b6b6b36
+  }
+  .title-tool>span:nth-child(3):hover{
+    background: rgb(228, 34, 34);
+    color:#fff
+  }
+  .color-sel-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  #copyHex{
+    margin-right: 10px;
+  }
+  .icon-xise{
+    font-size: 23px;
+    cursor:pointer;
+  }
+  .pointer{
+    cursor:pointer;
+  }
+  body .prop-class .layui-layer-title{-webkit-app-region: no-drag}
+  body .layui-layer-page .layui-layer-content{
+    padding: 10px 30px 0px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  body .layui-layer-btn .layui-layer-btn0 {
+    border-color: #009688;
+    background-color: #009688;
+  }
+  body .layui-form-label{
+    text-align: left;
+    padding-left: 0;
+  }
+  body .copy{
+    background-color: #7b6b6b36;
+    color: #5f5f5f;
+  }
+  body .layui-colorpicker-trigger-bgcolor {
+    background: none
+  }
+  body .layui-colorpicker-trigger-span{
+    border: 1px solid #7b6b6b00 !important;
+  }
+  body .layui-colorpicker-trigger-bgcolor {
+    background: none
+  }
+  .get-color{
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #7b6b6b36;
+    border-radius: 2px;
+  }
+  .icon-zuidahua{
+     font-size: 14px;
+  }
+  .icon-shezhi{
+    margin-left: 24px;
+    margin-top: 28px;
+    font-size: 35px;
+    color: #6d5f5f;
+  }
+  .icon-shezhi:hover{
+    animation:turn 2s linear infinite;
+  }
+  .footer{
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon-github{
+    margin-right: 42px;
+    margin-top: 28px;
+    font-size: 32px;
+    color: #a0a0a0
+  }
+  .icon-github:hover{
+    animation: changeColor 5s linear infinite;
+  }
+  @keyframes changeColor
+    {
+    0%{color: #a0a0a0}
+
+    25%{color: #FFBFBF }
+
+    50%{color: #F55A5A}
+
+    75%{color: #FFBE6A }
+
+    100%{color: #a0a0a0}
+  }
+  [id^="layui-colorpicker"] .layui-btn {
+    display: none
+  }
+  [id^="layui-colorpicker"] .layui-inline {
+    width: 100%
+  }
+  [id^="layui-colorpicker"] .layui-inline  input{
+    width: 100%;
+    text-align: center
+  }
+  @keyframes turn
+  {
+    0%{-webkit-transform:rotate(0deg) scale(1);}
+
+    25%{-webkit-transform:rotate(90deg) scale(1.1); }
+
+    50%{-webkit-transform:rotate(180deg) scale(1.2);}
+
+    75%{-webkit-transform:rotate(270deg) scale(1.2); }
+
+    100%{-webkit-transform:rotate(360deg) scale(1);}
+  }
+  .colorSle-show{
+    position: absolute;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 48px;
+    width: 39px;
+    background: #7b6b6b36;
+  }
+  canvas {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    /* z-index: 1; */
+  }
