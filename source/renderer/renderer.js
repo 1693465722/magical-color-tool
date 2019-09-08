@@ -86,7 +86,7 @@ document.getElementById("copyRGBA").onclick = function(){
   layer.msg('复制成功：'+color);
 }
 document.getElementById("github").onclick = function(){
-  shell.openExternal('https://github.com/1693465722')
+  shell.openExternal('https://github.com/1693465722/magical-color-tool')
 }
 // 吸色器点击
 document.getElementById("getColor").onclick = function(){
