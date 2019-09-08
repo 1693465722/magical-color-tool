@@ -1,19 +1,21 @@
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/logo.png">
-</div>
-<div align="center" style='font-size:26px;    background-image:-webkit-linear-gradient(bottom,red,#fd8403,yellow);-webkit-background-clip:text;-webkit-text-fill-color:transparent; '> magical-color-tool</div>
-<div align="center"  style='font-size:16px'>electron 快速取色工具</div>
-<div style="height:20px"></div>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/title.png">
+</p>
+<p align="center"  style='font-size:16px'>electron 快速取色工具</p>
 
 ## Preview
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/GIF.gif">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/GIF.gif" width='30%'>
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/home.png">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/home.png"  width='30%'>
 </div>
+<div>&nbsp;</div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/set.png">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/set.png" width='30%'>
 </div>
 
 # Advantage
