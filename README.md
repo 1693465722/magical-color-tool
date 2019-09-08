@@ -7,13 +7,13 @@
 
 ## Preview
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/logo.png">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/GIF.gif">
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/logo.png">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/home.png">
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/logo.png">
+  <img src="https://raw.githubusercontent.com/1693465722/magical-color-tool/master/source/static/img/set.png">
 </div>
 
 # Advantage
