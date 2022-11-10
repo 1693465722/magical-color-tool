@@ -19,7 +19,7 @@
     "dr-dev": "0.0.7-dev.1",
     "dr-dev-babel": "0.0.7-dev.1",
     "dr-js": "0.23.0-dev.2",
-    "electron": "^4",
+    "electron": "^18",
     "electron-color-picker": "^0.1",
     "electron-packager": "^14"
   },
